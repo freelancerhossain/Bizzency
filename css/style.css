@@ -1,0 +1,83 @@
+/*============comment css start=========*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+,h4,h3,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#top_bar{
+    background-color: #0f2f44;
+}
+.space-between{
+    justify-content: space-between;
+}
+#top_bar p{
+    color: #fefefe;
+    padding: 19px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*============comment css start=========*/
+
+/*============navbar css start=========*/
+
+#navbar .row{
+    align-items: center;
+    
+}
+
+#navbar ul li a{
+    font-weight: 800;
+    color: #0f2f44;
+    padding: 36px 19px;
+    line-height: 24px;
+}
+#navbar ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+#navbar ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    background: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#navbar ul li button:hover{
+    background-color: #fff9e6;
+    color: #ff8512;
+}
+/*============navbar css end=========*/
+
+
